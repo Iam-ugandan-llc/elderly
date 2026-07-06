@@ -30,4 +30,4 @@ Start with **Phase 1: Create production monorepo foundation**.
 
 ## Organization
 
-Maintained by [IAM Ugandan LLC](https://github.com/iamugandan-llc).
+Maintained by [IAM Ugandan LLC](https://github.com/Iam-ugandan-llc).
