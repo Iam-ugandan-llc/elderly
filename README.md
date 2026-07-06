@@ -1,12 +1,12 @@
-# Senior Rides (Elderly)
+# Senior Rides
 
 Nonprofit senior transportation platform with three Expo React Native apps:
 
-- **Rider App** — seniors request rides
-- **Driver App** — volunteer drivers accept and complete rides
-- **Admin App** — dispatch, approvals, and operations
+- **Rider App** - seniors request rides
+- **Driver App** - volunteer drivers accept and complete rides
+- **Admin App** - dispatch, approvals, and operations
 
-## Monorepo structure (Phase 1 target)
+## Monorepo Structure
 
 ```text
 apps/
@@ -24,9 +24,31 @@ supabase/
 
 ## Development
 
-Work proceeds phase by phase via GitHub Issues and Milestones in this repository.
+Install dependencies:
 
-Start with **Phase 1: Create production monorepo foundation**.
+```sh
+npm install
+```
+
+Run an app:
+
+```sh
+npm run start:rider
+npm run start:driver
+npm run start:admin
+```
+
+Check TypeScript across the workspace:
+
+```sh
+npm run typecheck
+```
+
+Each Expo app includes `.env.example` for public environment variables used by `app.config.ts`.
+
+## Phase Scope
+
+Phase 1 creates the monorepo foundation only. Authentication, Supabase tables, RLS policies, and ride workflows are intentionally left for later phases.
 
 ## Organization
 

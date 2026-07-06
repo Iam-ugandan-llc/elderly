@@ -1,0 +1,21 @@
+{
+  "name": "senior-rides",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start:rider": "npm --workspace @senior-rides/rider-app run start",
+    "start:driver": "npm --workspace @senior-rides/driver-app run start",
+    "start:admin": "npm --workspace @senior-rides/admin-app run start",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "ignoreDeprecations": "6.0",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@senior-rides/shared-ui": ["packages/shared-ui/src/index.tsx"],
+      "@senior-rides/shared-types": ["packages/shared-types/src/index.ts"],
+      "@senior-rides/shared-supabase": ["packages/shared-supabase/src/index.ts"],
+      "@senior-rides/shared-utils": ["packages/shared-utils/src/index.ts"]
+    }
+  }
+}
