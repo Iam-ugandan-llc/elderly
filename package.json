@@ -10,10 +10,21 @@
     "start:rider": "npm --workspace @senior-rides/rider-app run start",
     "start:driver": "npm --workspace @senior-rides/driver-app run start",
     "start:admin": "npm --workspace @senior-rides/admin-app run start",
+    "start:rider:tunnel": "npm --workspace @senior-rides/rider-app run start -- --tunnel",
+    "start:driver:tunnel": "npm --workspace @senior-rides/driver-app run start -- --tunnel",
+    "start:admin:tunnel": "npm --workspace @senior-rides/admin-app run start -- --tunnel",
     "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "devDependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native-safe-area-context": "5.7.0",
     "typescript": "6.0.3"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native-safe-area-context": "5.7.0"
   },
   "engines": {
     "node": ">=22"

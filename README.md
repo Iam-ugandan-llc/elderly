@@ -38,6 +38,16 @@ npm run start:driver
 npm run start:admin
 ```
 
+Run on a physical iPhone through Expo Go:
+
+```sh
+npm run start:rider:tunnel
+npm run start:driver:tunnel
+npm run start:admin:tunnel
+```
+
+Scan the QR code with the Expo Go app. Use one app command at a time.
+
 Check TypeScript across the workspace:
 
 ```sh
