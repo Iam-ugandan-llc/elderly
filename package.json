@@ -14,7 +14,7 @@
     "start:driver:tunnel": "npm --workspace @senior-rides/driver-app run start -- --tunnel",
     "start:admin:tunnel": "npm --workspace @senior-rides/admin-app run start -- --tunnel",
     "start:driver:dev": "npm --workspace @senior-rides/driver-app run start -- --dev-client",
-    "start:driver:dev:tunnel": "npm --workspace @senior-rides/driver-app run start -- --dev-client --tunnel",
+    "start:driver:dev:tunnel": "npm --workspace @senior-rides/driver-app run start -- --dev-client --tunnel --clear",
     "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "devDependencies": {
