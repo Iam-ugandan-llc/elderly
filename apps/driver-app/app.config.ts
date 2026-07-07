@@ -9,7 +9,10 @@ const config: ExpoConfig = {
   userInterfaceStyle: "automatic",
   platforms: ["ios", "android", "web"],
   ios: {
-    bundleIdentifier: "com.iamugandan.seniorrides.driver"
+    bundleIdentifier: "com.iamugandan.seniorrides.driver",
+    infoPlist: {
+      ITSAppUsesNonExemptEncryption: false
+    }
   },
   plugins: ["expo-router"],
   extra: {
