@@ -8,6 +8,9 @@ const config: ExpoConfig = {
   orientation: "portrait",
   userInterfaceStyle: "automatic",
   platforms: ["ios", "android", "web"],
+  ios: {
+    bundleIdentifier: "com.iamugandan.seniorrides.rider"
+  },
   plugins: ["expo-router"],
   extra: {
     supabaseUrl: process.env.EXPO_PUBLIC_SUPABASE_URL ?? "",
